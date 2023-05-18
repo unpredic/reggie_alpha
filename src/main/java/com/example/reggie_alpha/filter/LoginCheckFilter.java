@@ -25,7 +25,7 @@ public class LoginCheckFilter implements Filter {
 
         String requestURI = request.getRequestURI();
 
-        log.info("拦截到请求：{}", requestURI);
+//        log.info("拦截到请求：{}", requestURI);
 
         String[] urls = {
                 "/employee/login",
