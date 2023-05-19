@@ -81,7 +81,7 @@ public class EmployeeController {
 
     @GetMapping("/{id}")
     public R<Employee> getById(@PathVariable Long id) {
-        log.info("根据id拆查询员工信息...");
+        log.info("根据id拆查询员工信息... {}", id);
         Employee employee = employeeService.getById(id);
         return R.success(employee);
     }
