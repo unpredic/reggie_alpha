@@ -6,11 +6,6 @@ import java.util.Random;
  * 随机生成验证码工具类
  */
 public class ValidateCodeUtils {
-    /**
-     * 随机生成验证码
-     * @param length 长度为4位或者6位
-     * @return
-     */
     public static Integer generateValidateCode(int length){
         Integer code =null;
         if(length == 4){
