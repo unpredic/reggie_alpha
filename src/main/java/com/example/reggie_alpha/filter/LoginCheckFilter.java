@@ -36,6 +36,7 @@ public class LoginCheckFilter implements Filter {
                 "/common/**",
                 "/user/sendMsg",
                 "/user/login",
+                "/test/**"
         };
 
         // 不需要处理，直接放行

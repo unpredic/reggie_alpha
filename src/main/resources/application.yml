@@ -8,6 +8,8 @@ spring:
     url: jdbc:mysql://upredic100:3306/reggie?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
     username: root
     password: 123456
+  main:
+    banner-mode: off  # 关闭 SpringBoot 启动图标(banner)
 mybatis-plus:
   configuration:
     map-underscore-to-camel-case: true
@@ -15,5 +17,6 @@ mybatis-plus:
   global-config:
     db-config:
       id-type: ASSIGN_ID
+    banner: off # 关闭 mybatis plus启动图标
 reggie:
   path: D:\code\IdeaProjects\projects\reggie_alpha_upload_picture\
