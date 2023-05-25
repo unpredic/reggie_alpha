@@ -17,7 +17,11 @@
         <java.version>17</java.version>
     </properties>
     <dependencies>
-
+        <!-- spring cache 坐标-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-cache</artifactId>
+        </dependency>
         <!--Redis 坐标-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
